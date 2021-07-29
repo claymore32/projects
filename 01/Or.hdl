@@ -17,6 +17,6 @@ CHIP Or {
     Not(in=a, out=s);
     Not(in=b, out=j);
     Not(in=c, out=out);
-    And(a=s, b=j, out=c);
+    And(a=t, b=j, out=c);//a=s
     // Put your code here:
 }
